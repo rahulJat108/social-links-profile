@@ -1,0 +1,118 @@
+:root{
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--Dark-Grey: hsl(0, 0%, 12%);
+--Off-black: hsl(0, 0%, 8%);
+--Green: hsl(75, 94%, 57%);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 400 700;
+}
+
+
+
+body{
+    font-family: sans-serif;
+    /* font-weight: 400 700; */
+    font-size: 14px;
+    background-color: var(--Off-black);
+    padding: 0;
+    color: var(--White);
+    text-align: center;
+    margin: 50px 12px;
+}
+
+.container{
+    max-width: 260px;
+    padding: 20px;
+    margin: auto;
+    height: auto;
+    border: 1px solid;
+    background-color: var(--Dark-Grey);
+    border-radius: 15px;
+    
+}
+
+img{
+    border-radius: 50%;
+    box-sizing: border-box;
+    clip-path: circle();
+    height: 90px;
+}
+
+h1{
+    font-size: 20px;
+    
+}
+#pp{
+    color: var(--Green);
+}
+
+p{
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.links{
+    padding: 0px;
+    margin: -4px;
+
+}
+
+li{
+    list-style-type: none;
+    margin: 15px;
+}
+
+a:hover{
+    background-color: var(--Green);
+    color: black;
+}
+
+a{
+    text-decoration: none;
+   border-radius: 5px;
+    display: flex;
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: var(--Grey);
+    color: var(--White);
+    font-size: 13px;
+}
+/* <!-- # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Green: hsl(75, 94%, 57%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 600, 700 --> */
